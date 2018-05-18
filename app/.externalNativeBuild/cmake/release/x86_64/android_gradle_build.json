@@ -1,0 +1,45 @@
+
+{
+	"buildFiles" : [ "F:/AndroidStudioWorkSpace/JNIMA/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\AndroidStudioWorkSpace\\JNIMA\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\AndroidStudioWorkSpace\\JNIMA\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain D:/AndroidSDK/android-ndk-r13b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/android-ndk-r13b/platforms/android-21/arch-x86_64  -Dnative_lib_EXPORTS -isystem D:\\AndroidSDK\\android-ndk-r13b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\android-ndk-r13b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem D:\\AndroidSDK\\android-ndk-r13b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/AndroidStudioWorkSpace/JNIMA/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "F:/AndroidStudioWorkSpace/JNIMA/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain D:/AndroidSDK/android-ndk-r13b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/android-ndk-r13b/platforms/android-21/arch-x86_64 -Dnative_lib_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/AndroidStudioWorkSpace/JNIMA/app/src/main/cpp/hello.c",
+					"workingDirectory" : "F:/AndroidStudioWorkSpace/JNIMA/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "F:/AndroidStudioWorkSpace/JNIMA/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "1958276313"
+		}
+	},
+	"toolchains" : 
+	{
+		"1958276313" : 
+		{
+			"cCompilerExecutable" : "D:/AndroidSDK/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/AndroidSDK/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

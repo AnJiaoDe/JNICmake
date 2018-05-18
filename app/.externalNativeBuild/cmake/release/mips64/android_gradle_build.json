@@ -1,0 +1,45 @@
+
+{
+	"buildFiles" : [ "F:/AndroidStudioWorkSpace/JNIMA/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\AndroidStudioWorkSpace\\JNIMA\\app\\.externalNativeBuild\\cmake\\release\\mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\AndroidStudioWorkSpace\\JNIMA\\app\\.externalNativeBuild\\cmake\\release\\mips64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mips64el-none-linux-android -gcc-toolchain D:/AndroidSDK/android-ndk-r13b/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/android-ndk-r13b/platforms/android-21/arch-mips64  -Dnative_lib_EXPORTS -isystem D:\\AndroidSDK\\android-ndk-r13b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\android-ndk-r13b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\android-ndk-r13b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/AndroidStudioWorkSpace/JNIMA/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "F:/AndroidStudioWorkSpace/JNIMA/app/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  -target mips64el-none-linux-android -gcc-toolchain D:/AndroidSDK/android-ndk-r13b/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/android-ndk-r13b/platforms/android-21/arch-mips64 -Dnative_lib_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/AndroidStudioWorkSpace/JNIMA/app/src/main/cpp/hello.c",
+					"workingDirectory" : "F:/AndroidStudioWorkSpace/JNIMA/app/.externalNativeBuild/cmake/release/mips64"
+				}
+			],
+			"output" : "F:/AndroidStudioWorkSpace/JNIMA/app/build/intermediates/cmake/release/obj/mips64/libnative-lib.so",
+			"toolchain" : "1958276313"
+		}
+	},
+	"toolchains" : 
+	{
+		"1958276313" : 
+		{
+			"cCompilerExecutable" : "D:/AndroidSDK/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/AndroidSDK/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
